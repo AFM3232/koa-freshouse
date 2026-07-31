@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; padding: 0; background: #0E1430; }
+  body { font-family: 'Archivo', sans-serif; color: #26233A; }
+  a { color: #F97316; text-decoration: none; }
+  a:hover { color: #C2410C; text-decoration: underline; }
+</style>
+</helmet>
+<x-import component-from-global-scope="deck-stage" from="./deck-stage.js" width="1920" height="1080" hint-size="100%,100%">
+
+<!-- 01 PORTADA -->
+<section data-label="Portada" data-screen-label="01" data-speaker-notes="Presentar la propuesta: obra civil de fachada — lavado, resane, pintura impermeabilizante Koraza Pro 550 y sello de ventanería para KOA." style="background: #1E2A5E; display: grid; grid-template-columns: 1.08fr 1fr;">
+  <div style="padding: 84px 76px 84px 90px; display: flex; flex-direction: column; justify-content: space-between; position: relative;">
+    <div style="position: absolute; left: 0; top: 0; bottom: 0; width: 14px; background: #F97316;"></div>
+    <div style="align-self: flex-start;">
+      <img src="assets/logo-marca-blanco.png" alt="Freshouse" style="height: 128px; width: auto; display: block;">
+    </div>
+    <div>
+      <div style="display: inline-block; background: #F97316; border-radius: 999px; padding: 12px 28px; font-size: 24px; font-weight: 800; letter-spacing: 0.14em; color: #FFFFFF; margin-bottom: 30px;">COTIZACIÓN DE OBRA CIVIL</div>
+      <h1 style="font-size: 80px; font-weight: 900; line-height: 0.97; letter-spacing: -0.03em; color: #FFFFFF; margin: 0 0 24px;">Obra civil<br>de <span style="color: #FB923C;">fachada</span></h1>
+      <p style="font-size: 27px; line-height: 1.5; color: #C9D0E6; margin: 0 0 34px; max-width: 660px;">KOA — lavado y eliminación de hongos, resane de recubrimiento, pintura impermeabilizante Koraza Pro 550 y sello de ventanería con polímero híbrido Multibond.</p>
+      <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+        <span style="background: rgba(255,255,255,0.12); border: 1.5px solid rgba(255,255,255,0.32); border-radius: 999px; padding: 12px 24px; font-size: 24px; font-weight: 700; color: #FFFFFF;">Lavado · Pintura Koraza</span>
+        <span style="background: #FFF4EB; border-radius: 999px; padding: 12px 24px; font-size: 24px; font-weight: 700; color: #C2410C;">Sello de ventanería</span>
+      </div>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; border-top: 3px solid #F97316; padding-top: 24px;">
+      <div><div style="font-size: 24px; font-weight: 800; letter-spacing: 0.1em; color: #FDBA74; margin-bottom: 6px;">CLIENTE</div><div style="font-size: 27px; font-weight: 700; color: #FFFFFF;">KOA</div></div>
+      <div><div style="font-size: 24px; font-weight: 800; letter-spacing: 0.1em; color: #FDBA74; margin-bottom: 6px;">FECHA</div><div style="font-size: 27px; font-weight: 700; color: #FFFFFF;">Julio 2026</div></div>
+      <div><div style="font-size: 24px; font-weight: 800; letter-spacing: 0.1em; color: #FDBA74; margin-bottom: 6px;">REFERENCIA</div><div style="font-size: 27px; font-weight: 700; color: #FFFFFF;">FH-KOA-2026</div></div>
+    </div>
+  </div>
+  <div style="position: relative; overflow: hidden;">
+    <img src="assets/fotos/koa/portada-01.jpg" alt="KOA" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+    <div style="position: absolute; left: 40px; bottom: 40px; background: #F97316; border-radius: 8px; padding: 14px 26px; font-size: 24px; font-weight: 800; color: #FFFFFF;">KOA</div>
+  </div>
+  </section>
+
+<!-- 02 QUIÉNES SOMOS -->
+<section data-label="Quiénes somos" data-screen-label="02" data-speaker-notes="8+ años, 480.000+ m² intervenidos, 60+ proyectos ejecutados, 100% certificados en alturas. Ingeniería de fachadas, no un contratista más." style="background: #FFFFFF; padding: 76px 88px; display: flex; flex-direction: column;">
+  <div style="display: flex; align-items: baseline; gap: 22px; border-bottom: 4px solid #1E2A5E; padding-bottom: 20px; margin-bottom: 42px;">
+    <span style="font-size: 52px; font-weight: 900; color: #F97316; line-height: 1;">02</span>
+    <h2 style="font-size: 46px; font-weight: 900; color: #1E2A5E; letter-spacing: -0.02em; margin: 0;">Freshouse: ingeniería de fachadas, no un contratista más</h2>
+  </div>
+  <div style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 56px; flex: 1;">
+    <div>
+      <p style="font-size: 27px; line-height: 1.65; color: #26233A; margin: 0 0 22px;"><strong style="color:#1E2A5E;">Freshouse S.A.S.</strong> es una empresa de ingeniería con sede en Armenia, dedicada <strong>exclusivamente</strong> a la intervención técnica de la envolvente de edificaciones: fachadas, impermeabilización y cubiertas.</p>
+      <p style="font-size: 27px; line-height: 1.65; color: #45415A; margin: 0 0 22px;">Cada propuesta parte de un <mark style="background: rgba(249,115,22,.18); color:#C2410C; font-weight:800; padding: 1px 8px; border-radius: 5px;">diagnóstico real del edificio</mark> — atacamos la causa del deterioro, no solamente el síntoma.</p>
+      <p style="font-size: 27px; line-height: 1.65; color: #45415A; margin: 0;">Equipo de nómina directa, con seguridad social y certificación de trabajo en alturas al día. Materiales con respaldo de fábrica y garantía ejecutable porque cada obra queda documentada.</p>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; align-content: start;">
+      <div style="background: #EEF2FB; border: 2px solid #D9E0F4; border-radius: 10px; padding: 30px 32px;">
+        <div style="font-size: 24px; font-weight: 800; letter-spacing: 0.1em; color: #5A6480; margin-bottom: 12px;">EXPERIENCIA</div>
+        <div style="font-size: 44px; font-weight: 900; color: #1E2A5E; line-height: 1;">+8 años</div>
+        <div style="font-size: 24px; font-weight: 600; color: #45415A; margin-top: 8px;">de experiencia en fachadas</div>
+      </div>
+      <div style="background: #FFF4EB; border: 2px solid #F7D9BE; border-radius: 10px; padding: 30px 32px;">
+        <div style="font-size: 24px; font-weight: 800; letter-spacing: 0.1em; color: #C2410C; margin-bottom: 12px;">INTERVENIDOS</div>
+        <div style="font-size: 44px; font-weight: 900; color: #F97316; line-height: 1;">480.000+</div>
+        <div style="font-size: 24px; font-weight: 600; color: #45415A; margin-top: 8px;">m² intervenidos</div>
+      </div>
+      <div style="background: #EEF2FB; border: 2px solid #D9E0F4; border-radius: 10px; padding: 30px 32px;">
+        <div style="font-size: 24px; font-weight: 800; letter-spacing: 0.1em; color: #5A6480; margin-bottom: 12px;">EJECUTADOS</div>
+        <div style="font-size: 34px; font-weight: 900; color: #1E2A5E; line-height: 1.1;">60+ proyectos</div>
+        <div style="font-size: 24px; font-weight: 600; color: #45415A; margin-top: 8px;">obras ejecutadas</div>
+      </div>
+      <div style="background: #EEF2FB; border: 2px solid #D9E0F4; border-radius: 10px; padding: 30px 32px;">
+        <div style="font-size: 24px; font-weight: 800; letter-spacing: 0.1em; color: #5A6480; margin-bottom: 12px;">EQUIPO</div>
+        <div style="font-size: 34px; font-weight: 900; color: #1E2A5E; line-height: 1.1;">100%</div>
+        <div style="font-size: 24px; font-weight: 600; color: #45415A; margin-top: 8px;">certificados en alturas</div>
+      </div>
+    </div>
+  </div>
+  <div style="margin-top: 32px; border-top: 3px solid #1E2A5E; padding-top: 22px;">
+    <div style="font-size: 24px; font-weight: 800; letter-spacing: 0.1em; color: #5A6480; margin-bottom: 16px;">NUESTROS SERVICIOS</div>
+    <div style="display: flex; flex-wrap: wrap; gap: 12px;">
+      <span style="background: #FFF4EB; border-radius: 999px; padding: 12px 24px; font-size: 24px; font-weight: 700; color: #C2410C;">Hidrolavado y eliminación de hongos</span>
+      <span style="background: #EEF2FB; border-radius: 999px; padding: 12px 24px; font-size: 24px; font-weight: 700; color: #1E2A5E;">Pintura de fachada Koraza Pro 550</span>
+      <span style="background: #FFF4EB; border-radius: 999px; padding: 12px 24px; font-size: 24px; font-weight: 700; color: #C2410C;">Resane y reposición de morteros</span>
+      <span style="background: #EEF2FB; border-radius: 999px; padding: 12px 24px; font-size: 24px; font-weight: 700; color: #1E2A5E;">Sello de ventanería con polímero híbrido</span>
+      <span style="background: #EEF2FB; border-radius: 999px; padding: 12px 24px; font-size: 24px; font-weight: 700; color: #1E2A5E;">Diagnóstico de fachada con dron</span>
+      <span style="background: #FFF4EB; border-radius: 999px; padding: 12px 24px; font-size: 24px; font-weight: 700; color: #C2410C;">Renders y modelado 3D</span>
+    </div>
+  </section>
+
+<!-- 03 CLIENTES -->
+<section data-label="Clientes" data-screen-label="03" data-speaker-notes="Referencias reales. Podemos entregar actas de entrega y certificaciones bajo solicitud." style="background: #FFFFFF; padding: 68px 88px; display: flex; flex-direction: column;">
+  <div style="display: flex; align-items: baseline; gap: 22px; border-bottom: 4px solid #1E2A5E; padding-bottom: 18px; margin-bottom: 30px;">
+    <span style="font-size: 52px; font-weight: 900; color: #F97316; line-height: 1;">03</span>
+    <h2 style="font-size: 46px; font-weight: 900; color: #1E2A5E; letter-spacing: -0.02em; margin: 0;">Proyectos y clientes</h2>
+  </div>
+  <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; flex: 1; min-height: 0;">
+    <div style="position: relative; border-radius: 10px; overflow: hidden;"><img class="lb-img" src="assets/clientes/PORTAL-DEL-QUINDIO.jpg" alt="C.C. Portal del Quindío" style="width:100%;height:100%;object-fit:cover;display:block;"><div style="position:absolute;left:0;right:0;bottom:0;background:rgba(30,42,94,0.9);padding:16px 20px;font-size:27px;font-weight:700;color:#fff;">C.C. Portal del Quindío</div></div>
+    <div style="position: relative; border-radius: 10px; overflow: hidden;"><img class="lb-img" src="assets/clientes/PLAZA-FLORA.jpg" alt="C.C. Plaza Flora" style="width:100%;height:100%;object-fit:cover;display:block;"><div style="position:absolute;left:0;right:0;bottom:0;background:rgba(30,42,94,0.9);padding:16px 20px;font-size:27px;font-weight:700;color:#fff;">C.C. Plaza Flora</div></div>
+    <div style="position: relative; border-radius: 10px; overflow: hidden;"><img class="lb-img" src="assets/clientes/LOS-CEDROS.jpg" alt="Conjunto Residencial Los Cedros" style="width:100%;height:100%;object-fit:cover;object-position:25% center;display:block;"><div style="position:absolute;left:0;right:0;bottom:0;background:rgba(30,42,94,0.9);padding:16px 20px;font-size:27px;font-weight:700;color:#fff;">Conjunto Residencial Los Cedros</div></div>
+  </div>
+  </section>
+
+<!-- 04 CONTEXTO -->
+<section data-label="Contexto" data-screen-label="04" data-speaker-notes="KOA solicitó obra civil integral de fachada: suciedad, hongos, material vencido, fisuras y sello de ventanería deteriorado. Inspección técnica en sitio." style="background: #FFFFFF; padding: 76px 88px; display: flex; flex-direction: column;">
+  <div style="display: flex; align-items: baseline; gap: 22px; border-bottom: 4px solid #1E2A5E; padding-bottom: 20px; margin-bottom: 40px;">
+    <span style="font-size: 52px; font-weight: 900; color: #F97316; line-height: 1;">04</span>
+    <h2 style="font-size: 46px; font-weight: 900; color: #1E2A5E; letter-spacing: -0.02em; margin: 0;">Contexto del proyecto</h2>
+  </div>
+  <div style="display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 56px; flex: 1;">
+    <div>
+      <p style="font-size: 27px; line-height: 1.65; color: #26233A; margin: 0 0 22px;"><strong style="color:#1E2A5E;">KOA</strong> solicitó a Freshouse una <strong>obra civil de intervención integral en su fachada</strong>, que hoy presenta suciedad generalizada, <mark style="background: rgba(249,115,22,.18); color:#C2410C; font-weight:800; padding: 1px 8px; border-radius: 5px;">hongos</mark>, material que perdió su vida útil, desprendimientos puntuales, fisuras y deterioro en el sello de ventanería.</p>
+      <p style="font-size: 27px; line-height: 1.65; color: #45415A; margin: 0 0 22px;">Freshouse realizó la <strong style="color:#1E2A5E;">inspección técnica en sitio</strong> y el análisis de patologías del sistema de recubrimiento, el sustrato y la carpintería/ventanería de la envolvente.</p>
+      <p style="font-size: 27px; line-height: 1.65; color: #45415A; margin: 0;">La propuesta se plantea como una intervención integral: lavado y eliminación de hongos, pintura impermeabilizante Koraza Pro 550 y resello de ventanería — con sistemas Pintuco y respaldo técnico.</p>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; align-content: start;">
+      <div style="background: #FFF4EB; border: 2px solid #F7D9BE; border-radius: 10px; padding: 30px 32px;"><div style="font-size: 24px; font-weight: 800; letter-spacing: 0.1em; color: #C2410C; margin-bottom: 12px;">PINTURA KORAZA</div><div style="font-size: 46px; font-weight: 900; color: #F97316; line-height: 1;">4.561,73 m²</div><div style="font-size: 24px; font-weight: 600; color: #45415A; margin-top: 8px;">Koraza Pro 550 · 2 manos</div></div>
+      <div style="background: #EEF2FB; border: 2px solid #D9E0F4; border-radius: 10px; padding: 30px 32px;"><div style="font-size: 24px; font-weight: 800; letter-spacing: 0.1em; color: #5A6480; margin-bottom: 12px;">ÁREA DE LAVADO</div><div style="font-size: 46px; font-weight: 900; color: #1E2A5E; line-height: 1;">5.258,80 m²</div><div style="font-size: 24px; font-weight: 600; color: #45415A; margin-top: 8px;">hidrolavado + hipoclorito</div></div>
+      <div style="background: #EEF2FB; border: 2px solid #D9E0F4; border-radius: 10px; padding: 30px 32px;"><div style="font-size: 24px; font-weight: 800; letter-spacing: 0.1em; color: #5A6480; margin-bottom: 12px;">SELLO VENTANERÍA</div><div style="font-size: 46px; font-weight: 900; color: #1E2A5E; line-height: 1;">2.087,80 ml</div><div style="font-size: 24px; font-weight: 600; color: #45415A; margin-top: 8px;">polímero híbrido Multibond</div></div>
+      <div style="background: #EEF2FB; border: 2px solid #D9E0F4; border-radius: 10px; padding: 30px 32px;"><div style="font-size: 24px; font-weight: 800; letter-spacing: 0.1em; color: #5A6480; margin-bottom: 12px;">PLAZO ESTIMADO</div><div style="font-size: 52px; font-weight: 900; color: #1E2A5E; line-height: 1;">70 días</div><div style="font-size: 24px; font-weight: 600; color: #45415A; margin-top: 8px;">hábiles, con seguimiento SIF</div></div>
+    </div>
+  </div>
+  </section>
+
+<!-- 05 DIAGNÓSTICO -->
+<section data-label="Diagnóstico" data-screen-label="05" data-speaker-notes="Inspección técnica en sitio: 30% suciedad y hongos, 25% material vencido, 20% sello de ventanería deteriorado, 15% fisuras, 10% ingreso de agua." style="background: #FFFFFF; padding: 68px 88px; display: flex; flex-direction: column;">
+  <div style="display: flex; align-items: baseline; gap: 22px; border-bottom: 4px solid #1E2A5E; padding-bottom: 20px; margin-bottom: 22px;">
+    <span style="font-size: 52px; font-weight: 900; color: #F97316; line-height: 1;">05</span>
+    <h2 style="font-size: 46px; font-weight: 900; color: #1E2A5E; letter-spacing: -0.02em; margin: 0;">Diagnóstico — estado actual de la fachada</h2>
+  </div>
+  <p style="font-size: 25px; line-height: 1.6; color: #45415A; margin: 0 0 30px; max-width: 1300px;">Inspección técnica en sitio y análisis de patologías de la fachada de KOA, evaluando el sistema de recubrimiento, el sustrato y el sello de ventanería.</p>
+
+  <div style="margin-bottom:8px;">
+    <div style="font-size:22px;font-weight:800;letter-spacing:0.08em;color:#5A6480;text-transform:uppercase;margin-bottom:14px;">Distribución de patologías</div>
+    <div style="display:flex;flex-direction:column;gap:10px;">
+      <div style="display:flex;align-items:center;gap:16px;"><div style="flex:0 0 460px;font-size:22px;color:#26233A;font-weight:600;text-align:right;">Suciedad, hongos y colonización biológica</div><div style="flex:1;background:#EEF2FB;border-radius:6px;height:26px;overflow:hidden;"><div style="width:30%;height:100%;background:linear-gradient(90deg,#F97316,#C2410C);"></div></div><div style="flex:0 0 60px;font-family:monospace;font-weight:800;color:#C2410C;font-size:24px;">30%</div></div>
+      <div style="display:flex;align-items:center;gap:16px;"><div style="flex:0 0 460px;font-size:22px;color:#26233A;font-weight:600;text-align:right;">Material vencido y desprendimientos</div><div style="flex:1;background:#EEF2FB;border-radius:6px;height:26px;overflow:hidden;"><div style="width:25%;height:100%;background:linear-gradient(90deg,#F97316,#C2410C);"></div></div><div style="flex:0 0 60px;font-family:monospace;font-weight:800;color:#C2410C;font-size:24px;">25%</div></div>
+      <div style="display:flex;align-items:center;gap:16px;"><div style="flex:0 0 460px;font-size:22px;color:#26233A;font-weight:600;text-align:right;">Deterioro del sello de ventanería</div><div style="flex:1;background:#EEF2FB;border-radius:6px;height:26px;overflow:hidden;"><div style="width:20%;height:100%;background:linear-gradient(90deg,#F97316,#C2410C);"></div></div><div style="flex:0 0 60px;font-family:monospace;font-weight:800;color:#C2410C;font-size:24px;">20%</div></div>
+      <div style="display:flex;align-items:center;gap:16px;"><div style="flex:0 0 460px;font-size:22px;color:#26233A;font-weight:600;text-align:right;">Fisuras</div><div style="flex:1;background:#EEF2FB;border-radius:6px;height:26px;overflow:hidden;"><div style="width:15%;height:100%;background:linear-gradient(90deg,#F97316,#C2410C);"></div></div><div style="flex:0 0 60px;font-family:monospace;font-weight:800;color:#C2410C;font-size:24px;">15%</div></div>
+      <div style="display:flex;align-items:center;gap:16px;"><div style="flex:0 0 460px;font-size:22px;color:#26233A;font-weight:600;text-align:right;">Ingreso y retención de agua</div><div style="flex:1;background:#EEF2FB;border-radius:6px;height:26px;overflow:hidden;"><div style="width:10%;height:100%;background:linear-gradient(90deg,#F97316,#C2410C);"></div></div><div style="flex:0 0 60px;font-family:monospace;font-weight:800;color:#C2410C;font-size:24px;">10%</div></div>
+    </div>
+    <div style="font-size:18px;color:#8B879C;font-style:italic;margin-top:10px;">Distribución estimada de las patologías identificadas en la inspección técnica (una misma zona puede presentar varias).</div>
+  </div>
+
+  <div style="margin-top: 26px; border-top: 3px solid #1E2A5E; padding-top: 22px;">
+    <div style="font-size: 24px; font-weight: 800; letter-spacing: 0.1em; color: #5A6480; margin-bottom: 16px;">HALLAZGOS DEL DIAGNÓSTICO</div>
+    <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px;">
+      <div style="background: #FFF4EB; border-radius: 10px; padding: 24px 26px;"><div style="font-size: 27px; font-weight: 900; color: #C2410C; margin-bottom: 8px;">Suciedad y hongos</div><div style="font-size: 22px; line-height: 1.45; color: #45415A;">Suciedad generalizada, smog y colonización biológica (hongos negros y verdes) sobre la fachada.</div></div>
+      <div style="background: #FFF4EB; border-radius: 10px; padding: 24px 26px;"><div style="font-size: 27px; font-weight: 900; color: #C2410C; margin-bottom: 8px;">Material vencido</div><div style="font-size: 22px; line-height: 1.45; color: #45415A;">Recubrimiento desgastado, entizamiento y pérdida de adherencia en amplias zonas.</div></div>
+      <div style="background: #FFF4EB; border-radius: 10px; padding: 24px 26px;"><div style="font-size: 27px; font-weight: 900; color: #C2410C; margin-bottom: 8px;">Desprendimientos</div><div style="font-size: 22px; line-height: 1.45; color: #45415A;">Descascaramiento y ampollamiento del recubrimiento, con zonas en riesgo de desprendimiento.</div></div>
+      <div style="background: #FFF4EB; border-radius: 10px; padding: 24px 26px;"><div style="font-size: 27px; font-weight: 900; color: #C2410C; margin-bottom: 8px;">Fisuras</div><div style="font-size: 22px; line-height: 1.45; color: #45415A;">Fisuras en la superficie del recubrimiento que facilitan el ingreso de agua.</div></div>
+      <div style="background: #FFF4EB; border-radius: 10px; padding: 24px 26px;"><div style="font-size: 27px; font-weight: 900; color: #C2410C; margin-bottom: 8px;">Ingreso de agua</div><div style="font-size: 22px; line-height: 1.45; color: #45415A;">Escurrimientos y manchas de humedad por bordes, dilataciones y juntas de ventanería.</div></div>
+      <div style="background: #FFF4EB; border-radius: 10px; padding: 24px 26px;"><div style="font-size: 27px; font-weight: 900; color: #C2410C; margin-bottom: 8px;">Sello de ventanería</div><div style="font-size: 22px; line-height: 1.45; color: #45415A;">Deterioro y pérdida de elasticidad del sello de juntas de ventanería, con riesgo de filtración.</div></div>
+    </div>
+  </div>
+  </section>
+
+<!-- 06 PROCESO DE INTERVENCIÓN -->
+<section data-label="Proceso de intervención" data-screen-label="06" data-speaker-notes="Cinco etapas. Prioridad técnica: las fuentes de humedad (juntas, bordes, fisuras) deben sellarse y tratarse antes de aplicar el acabado." style="background: #FFFFFF; padding: 68px 88px; display: flex; flex-direction: column;">
+  <div style="display: flex; align-items: baseline; gap: 22px; border-bottom: 4px solid #1E2A5E; padding-bottom: 20px; margin-bottom: 22px;">
+    <span style="font-size: 52px; font-weight: 900; color: #F97316; line-height: 1;">06</span>
+    <h2 style="font-size: 46px; font-weight: 900; color: #1E2A5E; letter-spacing: -0.02em; margin: 0;">Proceso de intervención</h2>
+  </div>
+  <div style="background: #FFF4EB; border: 2px solid #F7D9BE; border-radius: 10px; padding: 18px 24px; margin-bottom: 26px; display: flex; gap: 14px; align-items: flex-start;"><span style="font-size: 24px;">⚠️</span><span style="font-size: 22px; line-height: 1.5; color: #45415A;"><strong style="color:#C2410C;">Prioridad técnica:</strong> las fuentes de humedad (juntas de ventanería, bordes y fisuras) deben identificarse, sellarse y tratarse <strong>antes</strong> de aplicar el acabado. La humedad activa migra hacia la superficie y compromete la adherencia del sistema.</span></div>
+  <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; flex: 1; align-content: start;">
+    <div style="border: 2px solid #D9E0F4; border-radius: 10px; padding: 28px 30px;"><div style="display:flex;align-items:center;gap:14px;margin-bottom:12px;"><span style="background:#1E2A5E;color:#fff;border-radius:8px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:900;flex-shrink:0;">1</span><div style="font-size: 26px; font-weight: 900; color: #1E2A5E;">Preliminares</div></div><div style="font-size: 23px; line-height: 1.5; color: #45415A;">Campamento provisional, señalización de seguridad y SISO permanente en sitio durante toda la obra.</div></div>
+    <div style="border: 2px solid #D9E0F4; border-radius: 10px; padding: 28px 30px;"><div style="display:flex;align-items:center;gap:14px;margin-bottom:12px;"><span style="background:#1E2A5E;color:#fff;border-radius:8px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:900;flex-shrink:0;">2</span><div style="font-size: 26px; font-weight: 900; color: #1E2A5E;">Lavado y hongos</div></div><div style="font-size: 23px; line-height: 1.5; color: #45415A;">Hidrolavado con Construcleaner Desengrasante de Pintuco e hipoclorito al 10%. Retiro de polvos, grasas y material suelto.</div></div>
+    <div style="border: 2px solid #F7D9BE; background: #FFF4EB; border-radius: 10px; padding: 28px 30px;"><div style="display:flex;align-items:center;gap:14px;margin-bottom:12px;"><span style="background:#F97316;color:#fff;border-radius:8px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:900;flex-shrink:0;">3</span><div style="font-size: 26px; font-weight: 900; color: #C2410C;">Acabado impermeabilizante</div></div><div style="font-size: 23px; line-height: 1.5; color: #45415A;">Dos manos (o las necesarias) de Koraza Pro 550 de Pintuco, aplicada con rodillo tipo Nexpoly para sellar totalmente los poros.</div></div>
+    <div style="border: 2px solid #F7D9BE; background: #FFF4EB; border-radius: 10px; padding: 28px 30px;"><div style="display:flex;align-items:center;gap:14px;margin-bottom:12px;"><span style="background:#F97316;color:#fff;border-radius:8px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:900;flex-shrink:0;">4</span><div style="font-size: 26px; font-weight: 900; color: #C2410C;">Sello de ventanería</div></div><div style="font-size: 23px; line-height: 1.5; color: #45415A;">Resello de juntas con polímero híbrido tipo Multibond, de alta elasticidad y adherencia, previo retiro del sello existente.</div></div>
+    <div style="border: 2px solid #D9E0F4; border-radius: 10px; padding: 28px 30px;"><div style="display:flex;align-items:center;gap:14px;margin-bottom:12px;"><span style="background:#1E2A5E;color:#fff;border-radius:8px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:900;flex-shrink:0;">5</span><div style="font-size: 26px; font-weight: 900; color: #1E2A5E;">Terminado y limpieza</div></div><div style="font-size: 23px; line-height: 1.5; color: #45415A;">Aseo general, retiro de pintura sobrante y escombros. El área se entrega limpia y libre de residuos.</div></div>
+  </div>
+  <div style="margin-top: 24px; border-top: 3px solid #1E2A5E; padding-top: 20px;">
+    <div style="font-size: 24px; font-weight: 800; letter-spacing: 0.1em; color: #5A6480; margin-bottom: 16px;">SISTEMA DE PRODUCTOS · TODOS CON FICHA TÉCNICA</div>
+    <div style="display: flex; flex-wrap: wrap; gap: 12px;">
+      <span style="background: #EEF2FB; border-radius: 999px; padding: 12px 24px; font-size: 24px; font-weight: 700; color: #1E2A5E;">Construcleaner Desengrasante + hipoclorito</span>
+      <span style="background: #FFF4EB; border-radius: 999px; padding: 12px 24px; font-size: 24px; font-weight: 700; color: #C2410C;">Koraza Pro 550 · Pintuco</span>
+      <span style="background: #EEF2FB; border-radius: 999px; padding: 12px 24px; font-size: 24px; font-weight: 700; color: #1E2A5E;">Multibond — polímero híbrido</span>
+      <span style="background: #FFF4EB; border-radius: 999px; padding: 12px 24px; font-size: 24px; font-weight: 700; color: #C2410C;">Rodillo tipo Nexpoly</span>
+    </div>
+  </section>
+
+<!-- 07 PRESUPUESTO -->
+<section data-label="Presupuesto" data-screen-label="07" data-speaker-notes="Capítulo grande: pintura de fachada Koraza Pro 550. Valor integral: IVA del 19% sobre el costo directo, sin administración/utilidad como línea aparte." style="background: #FFFFFF; padding: 50px 76px; display: flex; flex-direction: column;">
+  <div style="display: flex; align-items: baseline; gap: 22px; border-bottom: 4px solid #1E2A5E; padding-bottom: 14px; margin-bottom: 16px;">
+    <span style="font-size: 48px; font-weight: 900; color: #F97316; line-height: 1;">07</span>
+    <h2 style="font-size: 42px; font-weight: 900; color: #1E2A5E; letter-spacing: -0.02em; margin: 0;">Presupuesto de obra</h2>
+  </div>
+  <table style="width: 100%; border-collapse: collapse;">
+    <thead>
+      <tr style="background: #FFF4EB;">
+        <th style="text-align: left; padding: 8px 14px; font-size: 21px; font-weight: 800; letter-spacing: 0.1em; color: #C2410C; width: 80px;">ÍTEM</th>
+        <th style="text-align: left; padding: 8px 14px; font-size: 21px; font-weight: 800; letter-spacing: 0.1em; color: #C2410C;">DESCRIPCIÓN Y ESPECIFICACIÓN TÉCNICA</th>
+        <th style="text-align: center; padding: 8px 12px; font-size: 21px; font-weight: 800; letter-spacing: 0.1em; color: #C2410C; width: 80px;">UND</th>
+        <th style="text-align: right; padding: 8px 12px; font-size: 21px; font-weight: 800; letter-spacing: 0.1em; color: #C2410C; width: 150px;">CANT.</th>
+        <th style="text-align: right; padding: 8px 14px; font-size: 21px; font-weight: 800; letter-spacing: 0.1em; color: #C2410C; width: 160px;">VR. UNIT.</th>
+        <th style="text-align: right; padding: 8px 14px; font-size: 21px; font-weight: 800; letter-spacing: 0.1em; color: #C2410C; width: 200px;">VALOR</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background: #EEF2FB;"><td style="padding: 6px 14px; font-size: 20px; font-weight: 900; color: #F97316;">1</td><td colspan="4" style="padding: 6px 14px; font-size: 20px; font-weight: 800; letter-spacing: 0.04em; color: #1E2A5E;">PRELIMINARES DE OBRA</td><td style="padding: 6px 14px; text-align: right; font-size: 20px; font-weight: 800; color: #1E2A5E;">$ 2.600.000</td></tr>
+      <tr style="border-bottom: 2px solid #EEEBF4;"><td style="padding: 6px 14px; font-size: 19px; font-weight: 700; color: #F97316; vertical-align: top;">1.1</td><td style="padding: 6px 14px; vertical-align: top;"><div style="font-size: 20px; font-weight: 700; color: #1E2A5E;">Construcción de campamento provisional de obra</div><div style="font-size: 18px; line-height: 1.25; color: #6E6A7E; margin-top: 1px;">Campamento provisional que garantiza la seguridad de materiales y personal.</div></td><td style="padding: 6px; text-align: center; font-size: 19px; color: #45415A; vertical-align: top;">GL</td><td style="padding: 6px; text-align: right; font-size: 19px; color: #45415A; vertical-align: top;">1,00</td><td style="padding: 6px 14px; text-align: right; font-size: 19px; color: #45415A; vertical-align: top;">$ 1.550.000</td><td style="padding: 6px 14px; text-align: right; font-size: 19px; font-weight: 700; color: #26233A; vertical-align: top;">$ 1.550.000</td></tr>
+      <tr style="border-bottom: 2px solid #EEEBF4;"><td style="padding: 6px 14px; font-size: 19px; font-weight: 700; color: #F97316; vertical-align: top;">1.2</td><td style="padding: 6px 14px; vertical-align: top;"><div style="font-size: 20px; font-weight: 700; color: #1E2A5E;">Señalización de obra — señalización y SISO</div><div style="font-size: 18px; line-height: 1.25; color: #6E6A7E; margin-top: 1px;">Cintas, avisos y acompañamiento permanente de profesional SISO, conforme al SG-SST.</div></td><td style="padding: 6px; text-align: center; font-size: 19px; color: #45415A; vertical-align: top;">GL</td><td style="padding: 6px; text-align: right; font-size: 19px; color: #45415A; vertical-align: top;">1,00</td><td style="padding: 6px 14px; text-align: right; font-size: 19px; color: #45415A; vertical-align: top;">$ 1.050.000</td><td style="padding: 6px 14px; text-align: right; font-size: 19px; font-weight: 700; color: #26233A; vertical-align: top;">$ 1.050.000</td></tr>
+      <tr style="background: #EEF2FB;"><td style="padding: 6px 14px; font-size: 20px; font-weight: 900; color: #F97316;">2</td><td colspan="4" style="padding: 6px 14px; font-size: 20px; font-weight: 800; letter-spacing: 0.04em; color: #1E2A5E;">LAVADO Y PREPARACIÓN DE SUPERFICIE</td><td style="padding: 6px 14px; text-align: right; font-size: 20px; font-weight: 800; color: #1E2A5E;">$ 42.535.797</td></tr>
+      <tr style="border-bottom: 2px solid #EEEBF4;"><td style="padding: 6px 14px; font-size: 19px; font-weight: 700; color: #F97316; vertical-align: top;">2.1</td><td style="padding: 6px 14px; vertical-align: top;"><div style="font-size: 20px; font-weight: 700; color: #1E2A5E;">Lavado de superficies con hongos y material desprendido</div><div style="font-size: 18px; line-height: 1.25; color: #6E6A7E; margin-top: 1px;">Hidrolavadora industrial 1.880 psi + hipoclorito al 10%. Incluye retiro de material desprendido.</div></td><td style="padding: 6px; text-align: center; font-size: 19px; color: #45415A; vertical-align: top;">M²</td><td style="padding: 6px; text-align: right; font-size: 19px; color: #45415A; vertical-align: top;">5.258,80</td><td style="padding: 6px 14px; text-align: right; font-size: 19px; color: #45415A; vertical-align: top;">$ 4.800</td><td style="padding: 6px 14px; text-align: right; font-size: 19px; font-weight: 700; color: #26233A; vertical-align: top;">$ 25.242.240</td></tr>
+      <tr style="border-bottom: 2px solid #EEEBF4;"><td style="padding: 6px 14px; font-size: 19px; font-weight: 700; color: #F97316; vertical-align: top;">2.2</td><td style="padding: 6px 14px; vertical-align: top;"><div style="font-size: 20px; font-weight: 700; color: #1E2A5E;">Resane de zonas puntuales del recubrimiento</div><div style="font-size: 18px; line-height: 1.25; color: #6E6A7E; margin-top: 1px;">Análisis previo para integrar la zona reparada al acabado existente.</div></td><td style="padding: 6px; text-align: center; font-size: 19px; color: #45415A; vertical-align: top;">M²</td><td style="padding: 6px; text-align: right; font-size: 19px; color: #45415A; vertical-align: top;">228,09</td><td style="padding: 6px 14px; text-align: right; font-size: 19px; color: #45415A; vertical-align: top;">$ 41.800</td><td style="padding: 6px 14px; text-align: right; font-size: 19px; font-weight: 700; color: #26233A; vertical-align: top;">$ 9.534.162</td></tr>
+      <tr style="border-bottom: 2px solid #EEEBF4;"><td style="padding: 6px 14px; font-size: 19px; font-weight: 700; color: #F97316; vertical-align: top;">2.3</td><td style="padding: 6px 14px; vertical-align: top;"><div style="font-size: 20px; font-weight: 700; color: #1E2A5E;">Reposición de morteros desprendidos</div><div style="font-size: 18px; line-height: 1.25; color: #6E6A7E; margin-top: 1px;">Remoción y reemplazo con mortero de reparación impermeabilizado.</div></td><td style="padding: 6px; text-align: center; font-size: 19px; color: #45415A; vertical-align: top;">M²</td><td style="padding: 6px; text-align: right; font-size: 19px; color: #45415A; vertical-align: top;">136,85</td><td style="padding: 6px 14px; text-align: right; font-size: 19px; color: #45415A; vertical-align: top;">$ 56.700</td><td style="padding: 6px 14px; text-align: right; font-size: 19px; font-weight: 700; color: #26233A; vertical-align: top;">$ 7.759.395</td></tr>
+      <tr style="background: #EEF2FB;"><td style="padding: 6px 14px; font-size: 20px; font-weight: 900; color: #F97316;">3</td><td colspan="4" style="padding: 6px 14px; font-size: 20px; font-weight: 800; letter-spacing: 0.04em; color: #1E2A5E;">PINTURA DE FACHADA</td><td style="padding: 6px 14px; text-align: right; font-size: 20px; font-weight: 800; color: #1E2A5E;">$ 103.186.333</td></tr>
+      <tr style="border-bottom: 2px solid #EEEBF4;"><td style="padding: 6px 14px; font-size: 19px; font-weight: 700; color: #F97316; vertical-align: top;">3.1</td><td style="padding: 6px 14px; vertical-align: top;"><div style="font-size: 20px; font-weight: 700; color: #1E2A5E;">Suministro y aplicación de Koraza Pro 550 — 2 manos</div><div style="font-size: 18px; line-height: 1.25; color: #6E6A7E; margin-top: 1px;">Alta resistencia a la intemperie y rayos UV. Garantía Pintuco 5 años.</div></td><td style="padding: 6px; text-align: center; font-size: 19px; color: #45415A; vertical-align: top;">M²</td><td style="padding: 6px; text-align: right; font-size: 19px; color: #45415A; vertical-align: top;">4.561,73</td><td style="padding: 6px 14px; text-align: right; font-size: 19px; color: #45415A; vertical-align: top;">$ 22.620</td><td style="padding: 6px 14px; text-align: right; font-size: 19px; font-weight: 700; color: #26233A; vertical-align: top;">$ 103.186.333</td></tr>
+      <tr style="background: #EEF2FB;"><td style="padding: 6px 14px; font-size: 20px; font-weight: 900; color: #F97316;">4</td><td colspan="4" style="padding: 6px 14px; font-size: 20px; font-weight: 800; letter-spacing: 0.04em; color: #1E2A5E;">SELLO DE VENTANERÍA</td><td style="padding: 6px 14px; text-align: right; font-size: 20px; font-weight: 800; color: #1E2A5E;">$ 17.746.300</td></tr>
+      <tr style="border-bottom: 2px solid #EEEBF4;"><td style="padding: 6px 14px; font-size: 19px; font-weight: 700; color: #F97316; vertical-align: top;">4.1</td><td style="padding: 6px 14px; vertical-align: top;"><div style="font-size: 20px; font-weight: 700; color: #1E2A5E;">Sello de juntas con polímero Multibond</div><div style="font-size: 18px; line-height: 1.25; color: #6E6A7E; margin-top: 1px;">Retiro y reposición del sello existente. Incluye puertas de balcones.</div></td><td style="padding: 6px; text-align: center; font-size: 19px; color: #45415A; vertical-align: top;">ML</td><td style="padding: 6px; text-align: right; font-size: 19px; color: #45415A; vertical-align: top;">2.087,80</td><td style="padding: 6px 14px; text-align: right; font-size: 19px; color: #45415A; vertical-align: top;">$ 8.500</td><td style="padding: 6px 14px; text-align: right; font-size: 19px; font-weight: 700; color: #26233A; vertical-align: top;">$ 17.746.300</td></tr>
+      <tr style="background: #EEF2FB;"><td style="padding: 6px 14px; font-size: 20px; font-weight: 900; color: #F97316;">5</td><td colspan="4" style="padding: 6px 14px; font-size: 20px; font-weight: 800; letter-spacing: 0.04em; color: #1E2A5E;">TERMINADO / LIMPIEZA</td><td style="padding: 6px 14px; text-align: right; font-size: 20px; font-weight: 800; color: #1E2A5E;">$ 3.600.000</td></tr>
+      <tr style="border-bottom: 2px solid #EEEBF4;"><td style="padding: 6px 14px; font-size: 19px; font-weight: 700; color: #F97316; vertical-align: top;">5.1</td><td style="padding: 6px 14px; vertical-align: top;"><div style="font-size: 20px; font-weight: 700; color: #1E2A5E;">Aseo general y limpieza — entrega a satisfacción</div><div style="font-size: 18px; line-height: 1.25; color: #6E6A7E; margin-top: 1px;">La obra queda libre de escombros y residuos de las actividades del contrato.</div></td><td style="padding: 6px; text-align: center; font-size: 19px; color: #45415A; vertical-align: top;">GLB</td><td style="padding: 6px; text-align: right; font-size: 19px; color: #45415A; vertical-align: top;">1,00</td><td style="padding: 6px 14px; text-align: right; font-size: 19px; color: #45415A; vertical-align: top;">$ 3.600.000</td><td style="padding: 6px 14px; text-align: right; font-size: 19px; font-weight: 700; color: #26233A; vertical-align: top;">$ 3.600.000</td></tr>
+    </tbody>
+  </table>
+
+  <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-top: 14px; gap: 32px;">
+    <div style="background: #EEF2FB; border-radius: 10px; padding: 14px 20px; font-size: 20px; line-height: 1.4; color: #45415A; flex: 1;">Valores en pesos colombianos (COP 2026), IVA del 19% incluido. <strong style="color:#1E2A5E;">El valor de obra es integral:</strong> no se realizan ajustes ni se cobran valores adicionales por diferencias en las medidas.</div>
+    <div style="flex: 0 0 520px;">
+      <div style="display: flex; justify-content: space-between; padding: 6px 18px; border-bottom: 2px solid #E8E5EF;"><span style="font-size: 21px; font-weight: 700; color: #45415A;">COSTO DIRECTO</span><span style="font-size: 22px; font-weight: 700; color: #26233A;">$ 169.668.430</span></div>
+      <div style="display: flex; justify-content: space-between; padding: 6px 18px; border-bottom: 2px solid #E8E5EF;"><span style="font-size: 21px; font-weight: 700; color: #45415A;">IVA (19%)</span><span style="font-size: 22px; font-weight: 700; color: #26233A;">$ 32.237.002</span></div>
+      <div style="display: flex; justify-content: space-between; align-items: center; padding: 12px 20px; background: #FFF4EB; border-radius: 10px; margin-top: 8px;"><span style="font-size: 22px; font-weight: 800; letter-spacing: 0.08em; color: #C2410C;">VALOR DE LA PROPUESTA</span><span style="font-size: 32px; font-weight: 900; color: #F97316;">$ 201.905.432</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 09 CONDICIONES -->
+<section data-label="Condiciones" data-screen-label="08" data-speaker-notes="Vigencia 30 días, plazo de ejecución 70 días hábiles. Sin anticipo: 40% al ejecutar el primer 20% de obra, 40% por actas de avance, 20% entrega final. Garantía de pintura 5 años + Pintucofill 7 años, mano de obra 3 años. Cinco pólizas incluidas. Esta diapositiva tiene scroll vertical." style="background: #FFFFFF; padding: 48px 88px; display: flex; flex-direction: column;">
+  <div style="display: flex; align-items: baseline; gap: 22px; border-bottom: 4px solid #1E2A5E; padding-bottom: 14px; margin-bottom: 18px;">
+    <span style="font-size: 46px; font-weight: 900; color: #F97316; line-height: 1;">08</span>
+    <h2 style="font-size: 40px; font-weight: 900; color: #1E2A5E; letter-spacing: -0.02em; margin: 0;">Condiciones comerciales y garantías</h2>
+  </div>
+  <div style="background: #EEF2FB; border-radius: 10px; padding: 14px 22px; margin-bottom: 16px; font-size: 19px; color: #1E2A5E; font-weight: 700;">No se solicita anticipo. Al ejecutar el primer 20% de la obra se factura el primer 40%; el segundo 40% por actas de avance y el 20% final contra entrega a satisfacción.</div>
+  <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-bottom: 18px;">
+    <div style="background: #FFF4EB; border-radius: 10px; padding: 18px 22px;"><div style="font-size: 19px; font-weight: 800; letter-spacing: 0.08em; color: #C2410C; margin-bottom: 6px;">1 · PRIMER CORTE</div><div style="font-size: 40px; font-weight: 900; color: #F97316; line-height: 1;">40%</div><div style="font-size: 18px; color: #45415A; margin-top: 6px;">Al ejecutar el 20% de la obra — sin anticipo — $80.762.173.</div></div>
+    <div style="background: #FFF4EB; border-radius: 10px; padding: 18px 22px;"><div style="font-size: 19px; font-weight: 800; letter-spacing: 0.08em; color: #C2410C; margin-bottom: 6px;">2 · ACTAS DE AVANCE</div><div style="font-size: 40px; font-weight: 900; color: #F97316; line-height: 1;">40%</div><div style="font-size: 18px; color: #45415A; margin-top: 6px;">Facturado por actas de avance de obra — $80.762.173.</div></div>
+    <div style="background: #FFF4EB; border-radius: 10px; padding: 18px 22px;"><div style="font-size: 19px; font-weight: 800; letter-spacing: 0.08em; color: #C2410C; margin-bottom: 6px;">3 · ENTREGA FINAL</div><div style="font-size: 40px; font-weight: 900; color: #F97316; line-height: 1;">20%</div><div style="font-size: 18px; color: #45415A; margin-top: 6px;">Contra entrega a satisfacción — $40.381.086.</div></div>
+  </div>
+  <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-bottom: 18px;">
+    <div style="border: 2px solid #D9E0F4; border-radius: 10px; padding: 16px 22px;"><div style="font-size: 19px; font-weight: 800; letter-spacing: 0.08em; color: #5A6480; margin-bottom: 6px;">VIGENCIA DE LA OFERTA</div><div style="font-size: 30px; font-weight: 900; color: #1E2A5E;">30 días</div></div>
+    <div style="border: 2px solid #D9E0F4; border-radius: 10px; padding: 16px 22px;"><div style="font-size: 19px; font-weight: 800; letter-spacing: 0.08em; color: #5A6480; margin-bottom: 6px;">PLAZO DE EJECUCIÓN</div><div style="font-size: 30px; font-weight: 900; color: #1E2A5E;">70 días hábiles</div></div>
+    <div style="border: 2px solid #D9E0F4; border-radius: 10px; padding: 16px 22px;"><div style="font-size: 19px; font-weight: 800; letter-spacing: 0.08em; color: #5A6480; margin-bottom: 6px;">MODALIDAD</div><div style="font-size: 26px; font-weight: 900; color: #1E2A5E; line-height: 1.15;">Precios unitarios</div></div>
+  </div>
+  <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-bottom: 18px;">
+    <div style="background: #1E2A5E; border-radius: 10px; padding: 18px 24px; display: flex; align-items: center; gap: 16px;">
+      <div style="display: flex; align-items: baseline; gap: 6px; flex-shrink: 0;"><span style="font-size: 46px; font-weight: 900; color: #FB923C; line-height: 1;">5</span><span style="font-size: 18px; font-weight: 700; color: #FDBA74;">años</span></div>
+      <div style="min-width: 0;"><div style="font-size: 20px; font-weight: 900; color: #FFFFFF; margin-bottom: 3px;">Impermeabilización y acabado</div><div style="font-size: 18px; line-height: 1.35; color: #C9D0E6;">Koraza Pro 550 con respaldo Pintuco; Pintucofill 7 años en dilataciones.</div></div>
+    </div>
+    <div style="background: #1E2A5E; border-radius: 10px; padding: 18px 24px; display: flex; align-items: center; gap: 16px;">
+      <div style="display: flex; align-items: baseline; gap: 6px; flex-shrink: 0;"><span style="font-size: 46px; font-weight: 900; color: #FFFFFF; line-height: 1;">3</span><span style="font-size: 18px; font-weight: 700; color: #C9D0E6;">años</span></div>
+      <div style="min-width: 0;"><div style="font-size: 20px; font-weight: 900; color: #FFFFFF; margin-bottom: 3px;">Garantía de mano de obra</div><div style="font-size: 18px; line-height: 1.35; color: #C9D0E6;">Freshouse responde por defectos de aplicación o bordes mal resueltos durante 3 años.</div></div>
+    </div>
+  </div>
+  <div>
+    <div style="font-size: 19px; font-weight: 800; letter-spacing: 0.08em; color: #5A6480; margin-bottom: 8px;">PÓLIZAS INCLUIDAS EN LA PROPUESTA — A FAVOR DE KOA</div>
+    <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px 24px;">
+      <div style="font-size: 18px; line-height: 1.35; color: #45415A;"><strong style="color:#1E2A5E;">1 · Calidad del servicio.</strong> 20% del contrato, vigencia de 1 año a partir del acta final.</div>
+      <div style="font-size: 18px; line-height: 1.35; color: #45415A;"><strong style="color:#1E2A5E;">2 · Buen manejo del anticipo.</strong> 50% del contrato, vigente hasta la terminación y 2 meses más.</div>
+      <div style="font-size: 18px; line-height: 1.35; color: #45415A;"><strong style="color:#1E2A5E;">3 · Responsabilidad civil.</strong> Mínimo $100.000.000, durante la obra y 2 meses más.</div>
+      <div style="font-size: 18px; line-height: 1.35; color: #45415A;"><strong style="color:#1E2A5E;">4 · Salarios y prestaciones.</strong> 10% del contrato, vigente hasta 3 años después de la firma.</div>
+      <div style="font-size: 18px; line-height: 1.35; color: #45415A;"><strong style="color:#1E2A5E;">5 · Cumplimiento.</strong> 20% del contrato, vigente hasta la terminación y 2 meses más.</div>
+    </div>
+  </div>
+  </section>
+
+<!-- POR QUÉ FRESHOUSE -->
+<section data-label="Por qué Freshouse" data-screen-label="09" data-speaker-notes="Destacar SIF, MS Project, SISO permanente y renders. Mencionar de paso el Sello Freshouse y el protocolo de imprevistos." style="background: #FFFFFF; padding: 66px 80px; display: flex; flex-direction: column;">
+  <div style="display: flex; align-items: baseline; gap: 22px; border-bottom: 4px solid #1E2A5E; padding-bottom: 18px; margin-bottom: 28px;">
+    <span style="font-size: 52px; font-weight: 900; color: #F97316; line-height: 1;">09</span>
+    <h2 style="font-size: 46px; font-weight: 900; color: #1E2A5E; letter-spacing: -0.02em; margin: 0;">Por qué elegir Freshouse</h2>
+  </div>
+  <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; flex: 1; min-height: 0; align-content: start;">
+    <div style="background: #EEF2FB; border-radius: 10px; padding: 30px 32px;"><div style="font-size: 29px; font-weight: 900; color: #1E2A5E; margin-bottom: 10px; line-height: 1.15;">Asesoría técnica con respaldo</div><div style="font-size: 24px; line-height: 1.5; color: #45415A;">Explicamos el porqué de cada producto y procedimiento. No solo vendemos — informamos.</div></div>
+    <div style="background: #EEF2FB; border-radius: 10px; padding: 30px 32px;"><div style="font-size: 29px; font-weight: 900; color: #1E2A5E; margin-bottom: 10px; line-height: 1.15;">Capacitación directa con Pintuco</div><div style="font-size: 24px; line-height: 1.5; color: #45415A;">Capacitación en obra antes de iniciar. Pintuco, Sika y Soudal respaldan la especificación con fichas técnicas vigentes.</div></div>
+    <div style="background: #FFF4EB; border-radius: 10px; padding: 30px 32px;"><div style="font-size: 29px; font-weight: 900; color: #C2410C; margin-bottom: 10px; line-height: 1.15;">Planeación con MS Project</div><div style="font-size: 24px; line-height: 1.5; color: #45415A;">Cronograma con hitos, ruta crítica y seguimiento semanal por frente de trabajo.</div></div>
+    <div style="background: #EEF2FB; border-radius: 10px; padding: 30px 32px;"><div style="font-size: 29px; font-weight: 900; color: #1E2A5E; margin-bottom: 10px; line-height: 1.15;">Supervisor y SISO en sitio</div><div style="font-size: 24px; line-height: 1.5; color: #45415A;">Supervisor permanente en campo más profesional SISO durante todo el proceso en altura.</div></div>
+    <div style="background: #FFF4EB; border-radius: 10px; padding: 30px 32px;"><div style="font-size: 29px; font-weight: 900; color: #C2410C; margin-bottom: 10px; line-height: 1.15;">Sistema de gestión SIF</div><div style="font-size: 24px; line-height: 1.5; color: #45415A;">Registra avance diario, materiales y costos, y genera informes automáticos para la administración.</div></div>
+    <div style="background: #EEF2FB; border-radius: 10px; padding: 30px 32px;"><div style="font-size: 29px; font-weight: 900; color: #1E2A5E; margin-bottom: 10px; line-height: 1.15;">Trabajo seguro en alturas</div><div style="font-size: 24px; line-height: 1.5; color: #45415A;">Personal certificado, con equipos, líneas de vida y protocolos para gran altura.</div></div>
+    <div style="background: #EEF2FB; border-radius: 10px; padding: 30px 32px;"><div style="font-size: 29px; font-weight: 900; color: #1E2A5E; margin-bottom: 10px; line-height: 1.15;">Control de calidad y plazo</div><div style="font-size: 24px; line-height: 1.5; color: #45415A;">Inspección por frentes, validación de acabado y entrega en el plazo pactado.</div></div>
+    <div style="background: #FFF4EB; border-radius: 10px; padding: 30px 32px;"><div style="font-size: 29px; font-weight: 900; color: #C2410C; margin-bottom: 10px; line-height: 1.15;">Hacemos renders</div><div style="font-size: 24px; line-height: 1.5; color: #45415A;">Visualización 3D antes de iniciar: la administración aprueba lo que va a recibir.</div></div>
+  </div>
+</section>
+
+<!-- CIERRE -->
+<section data-label="Cierre" data-screen-label="10" data-speaker-notes="Agradecer, ofrecer visita técnica y quedar a disposición de la administración." style="background: #FFFFFF; display: grid; grid-template-columns: 1.05fr 1fr;">
+  <div style="padding: 96px 76px; display: flex; flex-direction: column; justify-content: space-between;">
+    <div style="align-self: flex-start;">
+      <img src="assets/logo-marca.png" alt="Freshouse" style="height: 136px; width: auto; display: block;">
+    </div>
+    <div>
+      <h2 style="font-size: 72px; font-weight: 900; line-height: 1.02; letter-spacing: -0.03em; color: #1E2A5E; margin: 0 0 26px;">Gracias por<br>su atención</h2>
+      <p style="font-size: 25px; line-height: 1.55; color: #45415A; margin: 0 0 40px; max-width: 640px;">Con este proyecto, Freshouse asume el compromiso de devolverle a la fachada de KOA su impermeabilidad, su acabado y el valor patrimonial que merece, con el respaldo técnico de Pintuco.</p>
+      <div style="height: 4px; width: 120px; background: #F97316; margin-bottom: 34px;"></div>
+      <div style="font-size: 30px; font-weight: 900; color: #1E2A5E;">Renso Montoya</div>
+      <div style="font-size: 24px; line-height: 1.6; color: #45415A;">Gerente — Freshouse S.A.S.<br>310 461 7353 · gerencia@freshouse.com.co</div>
+    </div>
+    <div style="font-size: 24px; font-weight: 600; color: #8B879C;">FRESHOUSE S.A.S. · NIT 901.718.258-4 · Armenia, Quindío</div>
+  </div>
+  <div style="position: relative; overflow: hidden;">
+    <img src="assets/fotos/koa/portada-01.jpg" alt="KOA" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+  </div>
+  </section>
+
+</x-import>
+</x-dc>
+</body>
+</html>
